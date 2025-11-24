@@ -1,5 +1,6 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-scroll";
 
 const WorkTogether = () => {
   return (
@@ -11,18 +12,22 @@ const WorkTogether = () => {
         <p className="text-[#A5ACB5] text-xs sm:text-lg font-normal text-center pb-8">
           I'm currently open to full-time opportunities and data-driven projects. Let’s connect and explore how we can create meaningful results together.
         </p>
-        <a
-          href="#!"
+
+        <Link
+          to="contact"
+          smooth={true}
+          duration={900}
+          offset={-140}
           className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
         >
-          Let's work Together
+          Get in Touch
           <FontAwesomeIcon
             icon={faArrowRight}
             size="l"
             style={{ color: "#FFFFFF" }}
             className="ms-3"
           />
-        </a>
+        </Link>
       </div>
     </div>
   );
