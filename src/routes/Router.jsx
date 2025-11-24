@@ -4,7 +4,7 @@ import Loading from "../components/common/loading/Loading";
 const Home = lazy(() => import("../pages/Home"));
 const Main = lazy(() => import("../layouts/Main"));
 
-const repoName = /my-portfolio/
+const repoName = "my-portfolio";
 
 export const router = createBrowserRouter(
   [
@@ -18,11 +18,12 @@ export const router = createBrowserRouter(
       children: [
         {
           path: "/",
-          element: <Home></Home>,
+          element: <Home />,
         },
       ],
     },
   ],
   { basename: `/${repoName}` }
 );
+
 
