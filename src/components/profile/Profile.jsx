@@ -2,6 +2,7 @@ import person from "../../assets/images/person2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
+import { Link } from "react-scroll";
 
 const Profile = () => {
   return (
@@ -48,13 +49,18 @@ const Profile = () => {
              In addition, I have served as an instructor for data analysis workshops, <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">spoken at data conferences</span> , and as consultant.
             </p>
           </div>
+
           <div className="mt-8 flex max-md:justify-center">
-            <a
-              className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
-              href="#!"
+            <Link
+              to="portfolio"
+              smooth={true}
+              duration={600}
+              offset={-50}
+              className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px] cursor-pointer"
             >
               My Projects
-            </a>
+            </Link>
+
             <a
               className={`btn hidden xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-picto-primary bg-white duration-300 transition-all hover:text-picto-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
               href="#!"
