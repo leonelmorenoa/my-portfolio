@@ -1,7 +1,7 @@
 import person from "../../assets/images/person.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
-
+import { Link } from "react-scroll";
 // Information summary data
 const informationSummaryData = [
   {
@@ -48,13 +48,12 @@ const Introduction = () => {
           </p>
 
           <p className="text-center lg:text-start">
-            <a
-              className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
-            >
-              Get in Touch
-            </a>
-          </p>
+          <a
+  className="btn-primary btn btn-xs xxs:btn-lg text-white"
+  href="mailto:example@gmail.com"
+>
+  Get in Touch
+</a>
         </div>
 
         <div className="mx-auto lg:mx-0 relative">
@@ -81,3 +80,4 @@ const Introduction = () => {
 
 
 export default Introduction;
+
