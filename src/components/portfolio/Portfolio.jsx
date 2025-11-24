@@ -86,10 +86,12 @@ const Portfolio = () => {
       </div>
       <div className="text-center">
         <a
-          href="#!"
+          href="https://github.com/leonelmorenoa"
+          target="_blank"
+          rel="noopener noreferrer"
           className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
         >
-          More Project
+          More Projects
         </a>
       </div>
     </div>
