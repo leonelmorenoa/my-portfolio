@@ -48,21 +48,15 @@ const Introduction = () => {
           </p>
 
           <p className="text-center lg:text-start">
-          <a
+<Link
+  to="contact"
+  smooth={true}
+  duration={900}
+  offset={-140} 
   className="btn-primary btn btn-xs xxs:btn-lg text-white"
-  href="mailto:example@gmail.com"
 >
   Get in Touch
-</a>
-        </div>
-
-        <div className="mx-auto lg:mx-0 relative">
-          <div className="grid max-xxs:grid-flow-col grid-cols-3 w-fit mt-10 gap-1">
-            {informationSummaryData.map((item) => (
-              <InformationSummary key={item.id} item={item} />
-            ))}
-          </div>
-        </div>
+</Link>
       </div>
 
       <div
@@ -80,4 +74,5 @@ const Introduction = () => {
 
 
 export default Introduction;
+
 
