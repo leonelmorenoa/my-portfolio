@@ -1,4 +1,5 @@
 import Roles from "./Roles";
+import { Link } from "react-scroll";
 
 const rolesData = [
   {
@@ -36,18 +37,23 @@ const Profession = () => {
       <div className="flex flex-col justify-between h-fit md:pe-8 lg:pe-35.75 max-md:text-center my-auto">
         <p className="section-title max-md:text-center">What I do?</p>
         <div className="mt-6 text-[14px]">
-        <p className="text-xs sm:text-lg font-normal text-gray-400">
-        My work combines statistical rigor with practical implementation, delivering solutions that are scalable, reliable, and aligned with real business objectives—built with software engineering best practices.
-        </p>
+          <p className="text-xs sm:text-lg font-normal text-gray-400">
+            My work combines statistical rigor with practical implementation, delivering solutions that are scalable, reliable, and aligned with real business objectives—built with software engineering best practices.
+          </p>
         </div>
-        <a
-          href="#!"
+
+        <Link
+          to="contact"
+          smooth={true}
+          duration={900}
+          offset={-140}
           className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
         >
           Get in touch!
-        </a>
+        </Link>
       </div>
-      <div className="">
+
+      <div>
         {rolesData.map((role, index) => (
           <Roles role={role} key={index} />
         ))}
