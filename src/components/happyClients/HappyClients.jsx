@@ -17,7 +17,7 @@ const techStack = [
   {name:"r language", className:"devicon-r-plain"},,
   {name:"streamlit", className:"devicon-streamlit-plain"},
   {name:"vscode", className:"devicon-vscode-plain"},
-  {name:"supabase", className:"class="devicon-supabase-plain"}
+  {name:"supabase", className:"devicon-supabase-plain"}
 ];
 
 const HappyClients = () => {
@@ -55,4 +55,5 @@ const HappyClients = () => {
 };
 
 export default HappyClients;
+
 
