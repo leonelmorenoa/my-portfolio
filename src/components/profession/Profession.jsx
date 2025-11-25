@@ -10,7 +10,7 @@ const rolesData = [
   },
   {
     id: 2,
-    title: "Data Engineering & Automation",
+    title: "Data Engineering",
     description:
       "I build scalable ETL pipelines, automated workflows, and clean data structures. This ensures that insights are reliable, up-to-date, and ready for reporting or machine learning.",
   },
