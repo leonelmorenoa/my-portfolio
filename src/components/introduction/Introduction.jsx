@@ -18,7 +18,7 @@ const informationSummaryData = [
   {
     id: 3,
     title: "Fully Global Remote Work",
-    description: "7 Y.",
+    description: "8 Y.",
   },
 ];
 
@@ -84,3 +84,4 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
