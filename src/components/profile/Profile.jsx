@@ -40,7 +40,7 @@ const Profile = () => {
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> Economist</span> from Carabobo University and specialized training in analytics, I build data systems that drive measurable business impact.
+              <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> Economist</span> with specialized training in analytics, I build data systems that drive measurable business impact.
             </p>
             <p className="mt-3">
               I’ve worked across <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> different industries</span>from e-commerce to real estate—designing scalable reporting, forecasting models, and decision-support solutions.
