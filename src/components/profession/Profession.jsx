@@ -22,9 +22,9 @@ const rolesData = [
   },
   {
     id: 4,
-    title: "Data Visualization & Dashboards",
+    title: "Business Intelligence (BI)",
     description:
-      "I create intuitive, decision-focused dashboards that transform complex data into clarity. My visuals prioritize usability, transparency, and practical action.",
+      "I create intuitive, decision-focused dashboards that transform complex data into clarity. My visuals prioritize usability, transparency, and practical action. Not only for large corporations, but also for small and medium-sized enterprises (SMEs).",
   },
 ];
 
