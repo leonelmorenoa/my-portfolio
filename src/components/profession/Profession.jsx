@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const rolesData = [
   {
     id: 1,
-    title: "Data Analysis & Forecasting",
+    title: "Data Science & Forecasting",
     description:
       "I analyze complex datasets to uncover patterns, trends, and opportunities. Through statistical modeling and exploratory analysis, I deliver clear insights that guide strategic decisions.",
   },
@@ -16,13 +16,13 @@ const rolesData = [
   },
   {
     id: 3,
-    title: "Machine Learning & Modeling",
+    title: "Machine Learning",
     description:
       "I develop predictive models—from forecasting to classification—that help businesses anticipate outcomes, optimize performance, and reduce uncertainty.",
   },
   {
     id: 4,
-    title: "Business Intelligence (BI)",
+    title: "Business Intelligence",
     description:
       "I create intuitive, decision-focused dashboards that transform complex data into clarity. My visuals prioritize usability, transparency, and practical action. Not only for large corporations, but also for small and medium-sized enterprises (SMEs).",
   },
