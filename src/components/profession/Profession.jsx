@@ -16,7 +16,7 @@ const rolesData = [
   },
   {
     id: 3,
-    title: "Machine Learning",
+    title: "Machine Learning & Artificial Intelligence",
     description:
       "I develop predictive models—from forecasting to classification—that help businesses anticipate outcomes, optimize performance, and reduce uncertainty.",
   },
