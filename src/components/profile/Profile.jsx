@@ -46,7 +46,7 @@ const Profile = () => {
               I’ve worked across <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> different industries</span>from e-commerce to real estate—designing scalable reporting, forecasting models, and decision-support solutions.
             </p>
             <p className="mt-3">
-             In addition, I have served as an instructor for data analysis workshops, <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">delivered talks at data conferences﻿</span> , and as consultant for companies of all sizes.
+             In addition, I have served as an instructor for data analysis workshops, <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">delivered talks at data conferences﻿</span> , and as consultant
             </p>
           </div>
 
