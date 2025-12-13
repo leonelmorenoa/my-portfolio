@@ -10,8 +10,7 @@ const WorkTogether = () => {
           Do you have a Project Idea or Proposal? Let's talk!
         </p>
         <p className="text-[#A5ACB5] text-xs sm:text-lg font-normal text-center pb-8">
-          I’m currently open to full-time roles, consulting, and data-driven projects.
-          If you’re looking to turn data into real business results, let’s talk.
+          I’m currently open to full-time roles, consulting, and data-driven projects. If you’re looking to turn data into real business results, let’s talk.
         </p>
 
         <Link
@@ -35,4 +34,5 @@ const WorkTogether = () => {
 };
 
 export default WorkTogether;
+
 
