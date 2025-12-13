@@ -8,7 +8,7 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Data Experience",
-    description: "3 Y.",
+    description: "3+ Years",
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const informationSummaryData = [
   },
   {
     id: 3,
-    title: "Fully Global Remote Work",
-    description: "8 Y.",
+    title: "Working with Global Teams",
+    description: "8+ Years",
   },
 ];
 
@@ -84,4 +84,5 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
 
