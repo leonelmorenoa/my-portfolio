@@ -34,7 +34,7 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am a Data Scientist and Machine Learning Engineer
+            I build data solutions that save you time, cut costs, and generate revenue.
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
@@ -44,9 +44,6 @@ const Profile = () => {
             </p>
             <p className="mt-3">
               I’ve worked across <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> different industries</span>from e-commerce to real estate—designing scalable reporting, forecasting models, and decision-support solutions.
-            </p>
-            <p className="mt-3">
-             In addition, I have served as an instructor for data analysis workshops, <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">delivered talks at data conferences﻿</span> , and as consultant
             </p>
           </div>
 
