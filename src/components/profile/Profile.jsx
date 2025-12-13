@@ -34,16 +34,16 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I build data solutions that save you time, cut costs, and generate revenue.
+            Built by an Economist. Measured in business results.
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-            Built by an <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> Economist</span>. Measured in business results. Make data profitable.
+            I design <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">data solutions</span> that save you time, cut costs, and generate revenue.
             </p>
             <p className="mt-3">
-              I’ve worked across <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> different industries</span>from e-commerce to real estate, designing scalable reporting, forecasting models, and decision-support solutions.
+              <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> Across industries </span> from e-commerce to real estate—I build scalable reporting, forecasting, and decision-support systems teams actually use.
             </p>
           </div>
 
