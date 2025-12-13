@@ -6,25 +6,25 @@ const rolesData = [
     id: 1,
     title: "Data Science & Forecasting",
     description:
-      "I analyze complex datasets to uncover patterns, trends, and opportunities. Through statistical modeling and exploratory analysis, I deliver clear insights that guide strategic decisions.",
+      "I build forecasting and analytical models that help businesses plan demand, manage risk, and make confident decisions.",
   },
   {
     id: 2,
     title: "Data Engineering",
     description:
-      "I build scalable ETL pipelines, automated workflows, and clean data structures. This ensures that insights are reliable, up-to-date, and ready for reporting or machine learning.",
+      "I design reliable data pipelines that eliminate manual work and ensure decision-makers always have up-to-date information.",
   },
   {
     id: 3,
     title: "Machine Learning & Artificial Intelligence",
     description:
-      "I develop predictive models—from forecasting to classification—that help businesses anticipate outcomes, optimize performance, and reduce uncertainty.",
+      "I develop predictive models that anticipate outcomes, optimize performance, and reduce uncertainty.",
   },
   {
     id: 4,
     title: "Business Intelligence",
     description:
-      "I create intuitive, decision-focused dashboards that transform complex data into clarity. My visuals prioritize usability, transparency, and practical action. Not only for large corporations, but also for small and medium-sized enterprises (SMEs).",
+      "I create dashboards that executives and operators actually use—clear, transparent, and focused on action.",
   },
 ];
 
