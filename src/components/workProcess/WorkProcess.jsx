@@ -48,8 +48,6 @@ const WorkProcess = () => {
           business insight, clean software engineering, and practical impact.
         </p>
         <p className="mt-6 md:text-[18px] text-sm font-normal max-xl:text-center text-gray-500">
-          I follow the Cross-Industry Standard Process for Data Mining (CRISP-DM)
-          methodology.
         </p>
       </div>
 
@@ -71,3 +69,4 @@ const WorkProcess = () => {
 };
 
 export default WorkProcess;
+
