@@ -40,7 +40,7 @@ const Profile = () => {
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-            I design <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">data solutions</span> that save you time, cut costs, and generate revenue.
+            I design <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg">business solutions</span> that save you time, cut costs, and generate revenue.
             </p>
             <p className="mt-3">
               <span className="bg-[#1E96FC33] text-[#000080] px-2 py-0.5 rounded-lg"> Across industries </span> from e-commerce to real estate—I build scalable reporting, forecasting, and decision-support systems teams actually use.
